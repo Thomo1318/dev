@@ -1,0 +1,8 @@
+ID,Category/Task Solution,Software/Application,Platform(s),Free Version,Key Features / Notes,Link
+1,Scanning,QuickScan,iOS; Android; Web,Yes,"Fast, batch scanning, OCR, privacy-focused, cloud export",https://www.quickscanapp.com/
+2,Scanning,Adobe Scan,iOS; Android,Yes,"Auto-detect, OCR, PDF, cloud integration",https://www.adobe.com/au/acrobat/mobile/scanner-app.html
+3,Scanning,Microsoft Lens,iOS; Android,Yes,"OCR, integrates with OneDrive/SharePoint, PDF/image export",https://www.microsoft.com/en-au/microsoft-lens
+4,Scanning,Google Drive (Scan),Android,Yes,"Scan to PDF, auto-upload, basic OCR",https://www.google.com/drive/
+5,Scanning,Apple Notes (Scan),iOS; iPadOS,Yes,"Scan to PDF, auto-cropping, iCloud integration",https://support.apple.com/en-au/HT205773
+6,Scanning,CamScanner,iOS; Android,Yes (ads),"Batch scanning, OCR, cloud sync, file/folder organisation",https://www.camscanner.com/
+7,Project Management,ClickUp,Web; iOS; Android,Yes,"Task management, project tracking, collaboration, dashboards",https://www.clickup.com/
