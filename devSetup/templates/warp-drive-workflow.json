@@ -1,0 +1,36 @@
+{
+  "name": "Setup Git Repository Structure",
+  "description": "Creates a standard directory structure for Git repositories with appropriate README files and documentation. Supports different repository types including development setup, general projects, documentation, and tools repositories.",
+  "command": "curl -sSL https://raw.githubusercontent.com/{{github_username}}/{{repo_name}}/main/scripts/setup-git-structure.sh | bash -s {{repository_type}} \"{{repository_name}}\"",
+  "tags": ["git", "setup", "structure", "workflow", "automation"],
+  "arguments": [
+    {
+      "name": "github_username",
+      "arg_type": "String",
+      "description": "Your GitHub username where the devsetup repository is hosted",
+      "default_value": "Thomo1318"
+    },
+    {
+      "name": "repo_name", 
+      "arg_type": "String",
+      "description": "Name of the repository containing the setup script",
+      "default_value": "dev"
+    },
+    {
+      "name": "repository_type",
+      "arg_type": "Enum",
+      "enum_values": ["devsetup", "project", "docs", "tools"],
+      "description": "Type of repository structure to create",
+      "default_value": "devsetup"
+    },
+    {
+      "name": "repository_name",
+      "arg_type": "String", 
+      "description": "Name of the repository (used in README title)",
+      "default_value": "Development Repository"
+    }
+  ],
+  "shells": ["bash", "zsh"],
+  "environment_variables": null,
+  "source_url": "https://github.com/Thomo1318/dev/blob/main/docs/workflow-git-repository-structure.md"
+}
