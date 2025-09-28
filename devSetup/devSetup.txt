@@ -1,0 +1,20 @@
+Dev Setup
+
+Main
+mise-en-place (https://mise.jdx.dev/)
+Dev Tool and Runtime Management: 
+Mise installs and manages various development tools and language runtimes, such as Node.js, Python, Ruby, Go, Terraform, and many more. It allows for managing multiple versions of these tools and specifying which version to use on a per-project basis, often through configuration files like mise.toml or idiomatic version files (e.g., .node-version). Like asdf (or nvm or pyenv but for any language) it manages dev tools like node, python, cmake, terraform, and hundreds more.
+Environment Variable Management: 
+It enables the setting and management of environment variables specific to different projects or directories. This can be used for configuration settings like API keys, database URLs, or other project-specific variables. Like direnv it manages environment variables for different project directories.
+Task Runner: 
+Mise functions as a task runner, allowing developers to define and execute common project tasks. This helps in standardizing workflows and automating actions like building, testing, or deploying projects. Like make it manages tasks used to build and test projects.
+***uv
+A fast Python package and project manager.
+volta
+A JavaScript Tool Manager that installs Node.js runtimes, npm and Yarn package managers, or any binaries from npm.
+
+***
+Other
+Jekyll (https://github.com/jekyll/jekyll)
+Jekyll is a simple, blog-aware, static site generator perfect for personal, project, or organization sites. Think of it like a file-based CMS, without all the complexity. Jekyll takes your content, renders Markdown and Liquid templates, and spits out a complete, static website ready to be served by Apache, Nginx or another web server. Jekyll is the engine behind GitHub Pages, which you can use to host sites right from your GitHub repositories.
+
