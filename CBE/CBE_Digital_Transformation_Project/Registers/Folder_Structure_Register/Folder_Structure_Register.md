@@ -1,3 +1,0 @@
-| ID | Description | Date Added |
-|----|-------------|-----------|
-| 1  | Agreed digital folder structure for CBE, including unit-specific subfolders and migration/project folders. | 2025-09-16 |

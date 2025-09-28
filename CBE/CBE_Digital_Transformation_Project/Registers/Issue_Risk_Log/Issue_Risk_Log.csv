@@ -1,3 +1,0 @@
-ID,Issue/Risk Description,Impact,Likelihood,Mitigation/Action,Status
-1,Data loss during digitisation,High,Medium,Regular backups, use reputable scanning software,Open
-2,Privacy breach of sensitive records,High,Low,Access controls, audit logs, staff training,Open
